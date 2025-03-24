@@ -21,7 +21,7 @@ public class MainBD {
         for (Car car : carRepo.findAll())
             System.out.println(car);
 
-        carRepo.update(2, new Car("Mercedes", "GLC", 2021));
+        carRepo.update(2, new Car("Mercedes", "GLC", 2022));
         System.out.println("Toate masinile din db");
         for (Car car : carRepo.findAll())
             System.out.println(car);
